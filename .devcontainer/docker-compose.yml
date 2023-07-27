@@ -1,0 +1,13 @@
+version: '3.2'
+services:
+  paddleOCR-vsc-docker:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    volumes:
+      - ..:/home/developer/paddleOCR-vsc-docker
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]

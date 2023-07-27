@@ -1,0 +1,27 @@
+{
+  "name": "paddleOCR-vsc-docker",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "paddleOCR-vsc-docker",
+  "runServices": [
+    "paddleOCR-vsc-docker"
+  ],
+  "workspaceFolder": "/home/developer/paddleOCR-vsc-docker",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-toolsai.jupyter",
+        "ms-toolsai.jupyter-keymap",
+        "ms-toolsai.vscode-jupyter-cell-tags",
+        "github.copilot",
+        "github.copilot-labs",
+        "github.copilot-chat",
+        "ms-python.python",
+        "ms-azuretools.vscode-docker",
+        "Gruntfuggly.todo-tree",
+        "ms-vscode-remote.remote-ssh",
+        "ms-vscode-remote.remote-wsl",
+        "ms-vscode-remote.remote-containers"
+      ]
+    }
+  }
+}
