@@ -1,11 +1,11 @@
 {
-  "name": "paddleOCR-vsc-docker",
+  "name": "paddleocr-vsc-docker",
   "dockerComposeFile": "docker-compose.yml",
-  "service": "paddleOCR-vsc-docker",
+  "service": "paddleocr-vsc-docker",
   "runServices": [
-    "paddleOCR-vsc-docker"
+    "paddleocr-vsc-docker"
   ],
-  "workspaceFolder": "/home/developer/paddleOCR-vsc-docker",
+  "workspaceFolder": "/home/developer/paddleocr-vsc-docker",
   "customizations": {
     "vscode": {
       "extensions": [
